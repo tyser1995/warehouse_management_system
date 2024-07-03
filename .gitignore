@@ -17,3 +17,49 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Laravel specific
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# If you are using Laravel Valet
+/.valet
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore log files and database files
+*.log
+*.sql
+*.sqlite
+
+# Ignore composer.lock file if you are using Composer 1.x
+# If you are using Composer 2.x, it's recommended to commit this file.
+# /composer.lock
+
+# Ignore npm package lock file
+# If you are using npm 5+, it's recommended to commit this file.
+# /package-lock.json
+
+# Ignore IDE files
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# Ignore other system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore build artifacts
+/build/
