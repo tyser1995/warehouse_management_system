@@ -10,6 +10,11 @@ Atlantis Lite admin dashboard has 2 layouts, many plugins and UI components to h
 
 We made documentation how you started using this dashboard template and use available components and plugins.
 
+## Live Demo
+
+[Click here to view the live demo](https://themekita.com/demo-atlantis-lite-bootstrap/)
+
+##
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
