@@ -49,6 +49,12 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('roles', ['as' => 'roles', 'uses' => 'App\Http\Controllers\RoleController@index']);
     Route::resource('role', 'App\Http\Controllers\RoleController');
 
+    //CUSTOMER MANAGEMENT
+    Route::get('customers', ['as' => 'users', 'uses' => 'App\Http\Controllers\CustomerController@index']);
+    Route::get('customers/delete/{id}', ['as' => 'users/delete/{id}', 'uses' => 'App\Http\Controllers\CustomerController@delete']);
+    Route::get('customers/verify/{id}', ['as' => 'users/verify', 'uses' => 'App\Http\Controllers\CustomerController@verify_user']);
+	Route::resource('customer', 'App\Http\Controllers\CustomerController');
+
 });
 
 Route::group(['middleware' => 'auth'], function () {
