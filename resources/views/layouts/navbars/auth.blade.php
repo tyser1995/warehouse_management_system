@@ -61,7 +61,7 @@
                 </li>
                 <!-- Start of WMS -->
                 <li class="nav-item">
-                    <a href="index.html">
+                    <a href="/">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
                         <span class="badge badge-success d-none">4</span>
@@ -76,7 +76,7 @@
                     <div class="collapse" id="user">
                         <ul class="nav nav-collapse">
                             <li>
-                                <a href="components/avatars.html">
+                                <a href="{{url('/users')}}">
                                     <span class="sub-item">Employee</span>
                                 </a>
                             </li>

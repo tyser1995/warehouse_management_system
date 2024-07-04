@@ -21,7 +21,7 @@
                     <div class="card-header bg-white border-0">
                         <div class="row align-items-center">
                             <div class="col-8 edit-user-font">
-                                <h3 class="mb-0">{{ __('User Management') }}</h3>
+                                <h3 class="mb-0">{{ __('Employee Management') }}</h3>
                             </div>
                             <div class="col-4 text-right edit-user-btn">
                                 <a href="{{ route('user.index') }}" class="btn btn-sm btn-primary" id="edit-user-btn">{{
