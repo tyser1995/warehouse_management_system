@@ -73,15 +73,15 @@
                         <p>User</p>
                         <span class="caret"></span>
                     </a>
-                    <div class="collapse" id="user">
+                    <div class="collapse {{ $elementActive == 'user' || $elementActive == 'customer' ? 'show' : '' }}" id="user">
                         <ul class="nav nav-collapse">
-                            <li>
+                            <li class="{{ $elementActive == 'user' ? "active" : ""}}">
                                 <a href="{{url('/users')}}">
                                     <span class="sub-item">Employee</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="components/buttons.html">
+                            <li class="{{ $elementActive == 'customer' ? "active" : ""}}">
+                                <a href="{{url('/customers')}}">
                                     <span class="sub-item">Customer</span>
                                 </a>
                             </li>
